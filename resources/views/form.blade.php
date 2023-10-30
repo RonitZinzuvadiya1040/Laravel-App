@@ -26,33 +26,7 @@
                     @enderror
                 </span><br>
             </div>
-            <div class="form-group">
-                <label for="">Email:</label>
-                <input type="" name="email" value="{{old('email')}}" id="" class="form-control" placeholder="" aria-describedby="helpId" />
-                <span class="text-danger">
-                    @error('email')
-                    {{$message}}
-                    @enderror
-                </span><br>
-            </div>
-            <div class="form-group">
-                <label for="">Password:</label>
-                <input type="password" name="password" value="" id="" class="form-control" placeholder="" aria-describedby="helpId" />
-                <span class="text-danger">
-                    @error('password')
-                    {{$message}}
-                    @enderror
-                </span><br>
-            </div>
-            <div class="form-group">
-                <label for="">Confirm Password:</label>
-                <input type="password" name="confirm_password" value="" id="" class="form-control" placeholder="" aria-describedby="helpId" />
-                <span class="text-danger">
-                    @error('confirm_password')
-                    {{$message}}
-                    @enderror
-                </span><br>
-            </div>
+
             <button class="btn btn-primary">
                 Submit
             </button>
