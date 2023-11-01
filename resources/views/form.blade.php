@@ -8,7 +8,7 @@
     <title>Registration Page</title>
 
 <body>
-    <form action="{{url('/')}}/register" method="post">
+    <form action="{{route('register')}}" method="post">
         @csrf
         <!-- <pre>
             @php

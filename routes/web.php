@@ -17,9 +17,8 @@ use App\Http\Controllers\RegistrationController;
 |
 */
 
-Route::get('/register',[RegistrationController::class, 'index']);
-Route::post('/register',[RegistrationController::class, 'register']);
-
+Route::get('/register',[RegistrationController::class, 'index'])->name('register');
+Route::post('/register',[RegistrationController::class, 'register'])->name("register");
 
 // Route::get('/',[DemoController::class, 'index']);
 // Route::get('/about','App\Http\Controllers\DemoController@about');

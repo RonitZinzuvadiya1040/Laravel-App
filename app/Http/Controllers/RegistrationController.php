@@ -13,6 +13,7 @@ class RegistrationController extends Controller
 
     public function register(Request $request)
     {
+        // dd("hello");
         $request->validate(
             [
                 'name' => 'required',
